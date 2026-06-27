@@ -1,0 +1,6 @@
+{
+  "name": "GameHub",
+  "description": "An interactive gaming platform featuring a fully animated multiplayer Mafia game with secret roles, dynamic rounds, and intelligent bot support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

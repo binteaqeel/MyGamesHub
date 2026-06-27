@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&family=JetBrains+Mono:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Anton", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Custom Brutalist Utilities for the Bold Typography theme */
+.brutalist-card {
+  border: 3px solid #111111;
+  background-color: #ffffff;
+  box-shadow: 4px 4px 0px #111111;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.brutalist-card-interactive:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0px #111111;
+}
+
+.brutalist-card-interactive:active {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0px #111111;
+}
+
+.brutalist-btn {
+  border: 3px solid #111111;
+  box-shadow: 4px 4px 0px #111111;
+  font-family: "Anton", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.brutalist-btn:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0px #111111;
+}
+
+.brutalist-btn:active {
+  transform: translate(1px, 1px);
+  box-shadow: 3px 3px 0px #111111;
+}
+
+.brutalist-border {
+  border: 3px solid #111111;
+}
+
+.brutalist-border-sm {
+  border: 2px solid #111111;
+}
+
+.brutalist-shadow-lg {
+  box-shadow: 8px 8px 0px #111111;
+}
+
+.brutalist-shadow-md {
+  box-shadow: 5px 5px 0px #111111;
+}
+
+.brutalist-shadow-sm {
+  box-shadow: 3px 3px 0px #111111;
+}
